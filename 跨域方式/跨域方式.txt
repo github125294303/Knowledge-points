@@ -1,0 +1,13 @@
+跨域：
+1, jsonp
+2，cors跨域资源共享(vshop里面server.js里的引掉的请求头方法 就是这个)
+（cors需要请求头）
+3，webpack代理跨域（webpack不需要请求头啥的）
+
+4，postMessage + iframe
+5，window.name + iframe
+6，location.hash+iframe
+7，ngix反向代理
+8，websocket
+9，document.domain只适用于一级域名和二级域名的跨域  baidu.com
+vip.baidu.com
